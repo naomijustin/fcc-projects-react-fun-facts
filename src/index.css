@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Inter';
+}
+.navbar {
+  background-color: #21222A;
+  padding: 20px 30px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.navbar > div > img {
+  padding-right: 10px;
+  width: 30px;
+}
+.navbar > div > h1 {
+  font-weight: 700;
+  color: #61DAFB;
+  
+  font-size: 1.4rem;
+}
+.navbar > h2 {
+  font-weight: 600;
+  color: #DEEBF8;
+  font-size: 1.1rem;
+}
+.navFirst {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+}
+@media (max-width: 450px) {
+  .navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+}
