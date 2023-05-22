@@ -1,5 +1,6 @@
 import React from "react"
 import logo from "../assets/react.svg"
+import logoLarge from "../assets/reactjs-icon_large.svg"
 
 
 /**
@@ -26,7 +27,7 @@ function Main() {
                 <li>Is maintained by Facebook</li> 
                 <li>Powers thousands of enterprise apps, including mobile apps</li> 
             </ul>
-            <img className="main--bg_logo" src={logo} alt="React Logo"></img>
+            <img className="main--bg_logo" src={logoLarge} alt="React Logo"></img>
         </main>
         
     )

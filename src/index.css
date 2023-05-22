@@ -53,7 +53,11 @@ body {
 } 
 .main--bg_logo {
   position: absolute;
-  filter: #33373E;
+  right: 0;
+  top: 0;
+  padding-top: 228px;
+  z-index: -1;
+
 }
 @media (max-width: 450px) {
   .navbar {
