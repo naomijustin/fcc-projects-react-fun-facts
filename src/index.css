@@ -36,6 +36,7 @@ body {
 .main--container {
   padding: 57px 30px;
   color: #FFFFFF;
+  max-width: 400px;
 }
 .main--title {
   font-weight: 700;
@@ -45,7 +46,10 @@ body {
 .main--ul {
   padding-top: 20px;
   font-weight: 400;
-  line-height: 3.4ch;
+  /* line-height: 3.4ch; */
+}
+.main--ul > li {
+  padding-block: 7px;
 }
 .main--ul > li::marker {
   color: #61DAFB;
