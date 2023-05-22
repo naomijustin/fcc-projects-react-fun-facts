@@ -34,14 +34,18 @@ body {
   margin-right: auto;
 }
 .main--container {
-  padding: 57px 30px 30px 30px;
+  padding: 57px 30px;
   color: #FFFFFF;
 }
 .main--title {
   font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.05ch;
 }
 .main--ul {
+  padding-top: 20px;
   font-weight: 400;
+  line-height: 3.4ch;
 }
 .main--ul > li::marker {
   color: #61DAFB;
