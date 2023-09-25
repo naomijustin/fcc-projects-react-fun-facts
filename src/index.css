@@ -1,8 +1,4 @@
-/* body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #282D35;
-}
+/* 
 .navbar {
   background-color: #21222A;
   padding: 20px 30px;
@@ -69,6 +65,12 @@
   }
 }
  */
+
+ body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #282D35;
+}
 
  * {
   box-sizing: border-box;
