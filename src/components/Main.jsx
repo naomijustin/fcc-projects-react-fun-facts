@@ -1,6 +1,7 @@
 import React from "react"
 import logo from "../assets/react.svg"
-import logoLarge from "../assets/reactjs-icon_large.svg"
+import logoLargeDark from "../assets/reactjs-icon_large_dark.svg"
+import logoLargeLight from "../assets/reactjs-icon_large_light.svg"
 
 export default function Main(props) {
     return (
@@ -13,7 +14,7 @@ export default function Main(props) {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-            <img src={logoLarge} style={{right: "0px", position: "absolute"}}></img>
+            <img src={props.darkMode? logoLargeDark : logoLargeLight} className="background-image"></img>
         </main>
     )
 }
