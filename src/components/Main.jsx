@@ -13,6 +13,7 @@ export default function Main(props) {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
+            <img src={logoLarge} style={{right: "0px", position: "absolute"}}></img>
         </main>
     )
 }

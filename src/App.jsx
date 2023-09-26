@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="container">
       <Navbar darkMode={darkMode} toggleDarkMode={handleClick} />
-      <Main />
+      <Main darkMode={darkMode} />
     </div>
   )
 }
